@@ -1,0 +1,230 @@
+{
+"classname" "worldspawn"
+"message" "Methane"
+}
+{
+"classname" "info_player_intermission"
+"origin" "768 0 1216"
+"angle" "180"
+}
+{
+"classname" "info_alien_intermission"
+"origin" "176 32 1152"
+"angle" "90"
+}
+{
+"classname" "info_human_intermission"
+"origin" "-2800 368 664"
+"angle" "-1.40334e-14"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "448 416 1104"
+"angle" "180"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-1792 272 352"
+"angle" "180"
+}
+{
+"classname" "target_location"
+"origin" "0 896 368"
+"angle" "-90"
+"count" "2"
+"message" "Tube Room"
+}
+{
+"classname" "target_speaker"
+"origin" "0 896 448"
+"angle" "-90"
+"noise" "sound/methane/fan.wav"
+"spawnflags" "1"
+}
+{
+"classname" "target_location"
+"origin" "0 0 696"
+"count" "2"
+"message" "Outside"
+}
+{
+"classname" "target_location"
+"origin" "-768 0 512"
+"message" "Blue Gate"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "768 0 512"
+"angle" "180"
+"message" "Red Gate"
+"count" "1"
+}
+{
+"classname" "target_location"
+"origin" "-800 736 416"
+"count" "4"
+"message" "Blue Hall"
+}
+{
+"classname" "func_door"
+"lip" "4"
+"angle" "90"
+"team" "door1"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"lip" "4"
+"team" "door1"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*2"
+}
+{
+"classname" "info_human_intermission"
+"origin" "-2416 368 432"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-1776 464 352"
+}
+{
+"classname" "func_door"
+"lip" "4"
+"angle" "0"
+"team" "door2"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"lip" "4"
+"team" "door2"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"lip" "4"
+"angle" "180"
+"team" "door3"
+"sound1to2" "sound/methane/door_open1.wav"
+"sound2to1" "sound/methane/door_open1.wav"
+"soundPos1" "sound/methane/door_close1.wav"
+"soundPos2" "sound/methane/door_close1.wav"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "0"
+"lip" "4"
+"team" "door3"
+"sound1to2" "sound/methane/door_open1.wav"
+"sound2to1" "sound/methane/door_open1.wav"
+"soundPos1" "sound/methane/door_close1.wav"
+"soundPos2" "sound/methane/door_close1.wav"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"lip" "4"
+"team" "door4"
+"sound1to2" "sound/methane/door_open1.wav"
+"sound2to1" "sound/methane/door_open1.wav"
+"soundPos1" "sound/methane/door_close1.wav"
+"soundPos2" "sound/methane/door_close1.wav"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "0"
+"lip" "4"
+"team" "door4"
+"sound1to2" "sound/methane/door_open1.wav"
+"sound2to1" "sound/methane/door_open1.wav"
+"soundPos1" "sound/methane/door_close1.wav"
+"soundPos2" "sound/methane/door_close1.wav"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"lip" "4"
+"angle" "270"
+"team" "door5"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"lip" "4"
+"team" "door5"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"target" "target_print1"
+"model" "*11"
+}
+{
+"classname" "target_print"
+"origin" "-2000 398 488"
+"spawnflags" "4"
+"message" "WARNING: stay clear of fan when engine is running!"
+"targetname" "target_print1"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "25"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"lip" "4"
+"angle" "90"
+"team" "door6"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"team" "door6"
+"lip" "4"
+"angle" "270"
+"sound1to2" "sound/methane/door_open2.wav"
+"sound2to1" "sound/methane/door_open2.wav"
+"soundPos1" "sound/methane/door_close2.wav"
+"soundPos2" "sound/methane/door_close2.wav"
+"model" "*14"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "176 496 1088"
+"angle" "90"
+}

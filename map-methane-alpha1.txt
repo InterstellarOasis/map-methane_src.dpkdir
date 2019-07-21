@@ -1,0 +1,162 @@
+April 20, 2008
+=============================================================================
+			
+Title                   : Methane (alpha 1)
+			
+Filename	        : map-methane-alpha1.pk3
+			
+Author                  : Ingar =KCT=
+			
+Email Address           : ingar@telenet.be
+			
+Web Site(s)             : http://users.telenet.be/ingar
+			
+Description             : map the open source game Tremulous
+			  http://www.tremulous.net
+			
+Credits to              : ID-Software for Quake II
+			  DarkLegion for Tremulous
+			
+			  This map was made with Open Source software:
+			  Linux, KDE, the Gimp, GtkRadiant.
+
+=============================================================================
+
+	The methane map file and the assets created by me are 
+	available under the conditions of the Creative Commons License
+	http://creativecommons.org/licenses/by-sa/2.5
+
+=============================================================================
+	
+METHANE
+
+	Castle Methania
+	Flatulencia in Excelsis
+
+	for Seymour
+
+
+	This is my fourth Tremulous map. It was designed to be monumental
+	and vertical. I hope you enjoy it.
+
+	This first alpha released is intended to test what I have build so
+	far. A lot of corridors are still missing and the alien starting location
+	is just temporary.
+
+ACKNOWLEDGEMENTS
+
+	This map uses textures from the following textures sets:
+
+		The Andromeda texture set by Speedy
+		http://speedy.planetquake.gamespy.com/textures.htm
+
+		u_gr8_9.tga
+		u_pan1_h3b.tga
+		ubase_cable2b.tga
+
+		Yves 'evillair' Allaire's Quake 3: Arena textures sets 6 & 8
+		http://evillair.net/
+
+		e6basegrate.jpg
+		e6basicstrip_white.jpg
+		e6btrim_light.blend.jpg
+		e6btrim_light.jpg
+		e6c_floordented.jpg
+		e6dmetal.jpg
+		e6grate2_flr_b.tga
+		e6grtflr2bl.tga
+		e6launchengine.tga
+		e6launchengine_fx.jpg
+		e6launchengine_glow.jpg
+		e6launchengine_masked.tga
+		e6metalfan.tga
+		e6metalfan_blade.tga
+		e6platelight.blend.jpg
+		e6platelight.jpg
+		e6platelight_burnt.blend.jpg
+		e6platelight_burnt.jpg
+		e6simpwallsupp.jpg
+		e6simpwallsupp_rst.jpg
+		e6symbol_a.jpg
+		e6symbol_b.jpg
+		e6symbol_c.jpg
+		e6symbol_d.jpg
+		e6tekmtlrflr.jpg
+		e6tekmtlrflr_h.tga
+		e6tekmtlrflr_h_glow.jpg
+		e6tileceiling.jpg
+		e6xgratebasic_b.tga
+
+		e8_base1.jpg
+		e8_base1c.jpg
+		e8_btrim05.jpg
+		e8_btrim05b.jpg
+		e8_mtlwall3b.jpg
+		e8base_blue.jpg
+		e8base_red.jpg
+		e8basictrim2_blue.jpg
+		e8basictrim2_red.jpg
+		e8basictrim_blue.jpg
+		e8basictrim_red.jpg
+		e8beam01.jpg
+		e8beam01b.jpg
+		e8beam02.jpg
+		e8bgrate01.tga
+		e8bolttrim.jpg
+		e8bolttrimb.jpg
+		e8cretefloor01.jpg
+		e8cretefloor01b.jpg
+		e8cretefloor01c.jpg
+		e8cretesmlltrim.jpg
+		e8jumpspawn02b.tga
+		e8metal01.jpg
+		e8mtltrim1.jpg
+		e8mtltrim1b.jpg
+		e8support05.jpg
+		e8support06b.jpg
+		e8support06c.jpg
+		e8tinylight.blend.jpg
+		e8tinylight.jpg
+		e8tmtllight2.blend.jpg
+		e8tmtllight2.jpg
+
+	The following textures were made by me:
+
+		clangclip.tga
+		envmap.tga
+		glass.jpg
+
+	Skybox
+
+		"Bloody Marvelous" by Mighty Pete
+		http://www.petes-oasis.com/
+
+		downloaded from the WadFather
+		http://wadfather.planethalflife.gamespy.com
+
+	Models
+
+		Generator by Lt1 and Black Rayne Studios
+		http://www.blackrayne.net
+
+		Plants and Palm tree from 
+		Todd Gantzler's 'multiplant' plant model pack
+
+		Mushroom by Ken 'kat' Beyer
+		
+	Sounds
+
+		The door sound sounds are mixed from recordings found on
+		http://www.pdsounds.org
+		
+THANKS
+
+	maci for webspace on satgnu
+
+	LavaCroft, Thorn[mDc]
+
+	the [Derelict] community
+
+	the =KCT= crew
+
+Questions, bugs or suggestions? Send them to ingar@telenet.be
