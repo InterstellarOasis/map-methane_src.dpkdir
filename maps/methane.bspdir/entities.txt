@@ -1,0 +1,681 @@
+{
+"_q3map2_version" "2.5.17n-git-806e3fe"
+"_q3map2_cmdline" "-leaktest -custinfoparms -samplesize 8 -meta; -vis -saveprt; -light -fast -shade -dirty -patchshadows -randomsamples -samples 3 -bounce 8 -bouncegrid -cpma"
+"message" "^2Methane - ^3Inhale, Exhale^2!"
+"classname" "worldspawn"
+}
+{
+"angle" "180"
+"origin" "768 0 1216"
+"classname" "info_player_intermission"
+}
+{
+"angle" "180.000000"
+"origin" "800.000000 1064.000000 1152.000000"
+"classname" "info_alien_intermission"
+}
+{
+"angle" "-15"
+"origin" "-2720.000000 696.000000 664.000000"
+"classname" "info_human_intermission"
+}
+{
+"angle" "-90"
+"origin" "-64.000000 1200.000000 1056.000000"
+"classname" "team_alien_spawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-2496.000000 568.000000 352.000000"
+"classname" "team_human_spawn"
+}
+{
+"message" "Ventilation Shaft"
+"count" "2"
+"angle" "-90.000000"
+"origin" "800.000000 1504.000000 368.000000"
+"classname" "target_location"
+}
+{
+"message" "Hall of Stairs"
+"count" "2"
+"origin" "-1664.000000 -1248.000000 408.000000"
+"classname" "target_location"
+}
+{
+"model" "*1"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door1"
+"angle" "90"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door1"
+"lip" "4"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"origin" "-1776 464 352"
+"classname" "team_human_reactor"
+}
+{
+"model" "*3"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door2"
+"angle" "0"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door2"
+"lip" "4"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door3"
+"angle" "180"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door3"
+"lip" "4"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door4"
+"lip" "4"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door4"
+"lip" "4"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door5"
+"angle" "270"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door5"
+"lip" "4"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"targetname" "target_print1"
+"message" "WARNING: stay clear of fan when engine is running!"
+"spawnflags" "4"
+"origin" "-2352.000000 366.000000 488.000000"
+"classname" "target_print"
+}
+{
+"model" "*11"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door6"
+"angle" "90"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"angle" "270"
+"lip" "4"
+"team" "door6"
+"classname" "func_door"
+}
+{
+"angle" "180.000000"
+"origin" "-304.000000 1344.000000 1056.000000"
+"classname" "team_alien_overmind"
+}
+{
+"message" "^2Outside"
+"count" "2"
+"origin" "0.000000 0.000000 512.000000"
+"classname" "target_location"
+}
+{
+"angle" "180.000000"
+"message" "^2Terrace"
+"count" "2"
+"origin" "672.000000 0.000000 1208.000000"
+"classname" "target_location"
+}
+{
+"model" "*13"
+"dmg" "500"
+"classname" "trigger_hurt"
+}
+{
+"model" "*14"
+"team" "door7"
+"angle" "90"
+"lip" "4"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"team" "door7"
+"angle" "270"
+"lip" "4"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"noise" "sound/methane/thumping"
+"angle" "90.000000"
+"origin" "-1152.000000 -1984.000000 1008.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*16"
+"height" "32"
+"speed" "2"
+"spawnflags" "1"
+"classname" "func_bobbing"
+}
+{
+"model" "*17"
+"origin" "-2288.000000 388.000000 392.000000"
+"noise" "sound/methane/pumploop"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"model" "*18"
+"origin" "-2136.000000 319.500000 364.000000"
+"spawnflags" "8"
+"classname" "func_rotating"
+}
+{
+"noise" "sound/methane/energyloop"
+"spawnflags" "1"
+"angle" "0.000003"
+"origin" "-3264.000000 -960.000000 696.000000"
+"classname" "target_speaker"
+}
+{
+"targetname" "grangersound"
+"angle" "180.000000"
+"noise" "sound/methane/granger"
+"origin" "-688.000000 -1230.000000 528.000000"
+"classname" "target_speaker"
+}
+{
+"model" "*19"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door8a"
+"lip" "4"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door8a"
+"angle" "270"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*22"
+"angle" "0"
+"team" "door9"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"angle" "180"
+"team" "door9"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"angle" "180"
+"origin" "352.000000 1248.000000 1056.000000"
+"classname" "team_alien_spawn"
+}
+{
+"model" "*24"
+"origin" "-382.000000 1504.000000 352.000000"
+"spawnflags" "4"
+"noise" "sound/methane/fan"
+"speed" "75"
+"classname" "func_rotating"
+}
+{
+"message" "^2Box Storage"
+"origin" "656.000000 1184.000000 928.000000"
+"classname" "target_location"
+}
+{
+"message" "^2KhalsaCola"
+"origin" "-224.000000 1152.000000 1120.000000"
+"classname" "target_location"
+}
+{
+"message" "^2Explosives"
+"angle" "-90.000000"
+"origin" "-1776.000000 112.000000 1120.000000"
+"classname" "target_location"
+}
+{
+"message" "^2Tremulous Forever"
+"angle" "180.000000"
+"origin" "-624.000000 -576.000000 576.000000"
+"classname" "target_location"
+}
+{
+"message" "^2Trem-ulus"
+"origin" "-512.000000 -1184.000000 608.000000"
+"classname" "target_location"
+}
+{
+"message" "^2Pump Station"
+"angle" "180.000000"
+"origin" "-2248.000000 368.000000 488.000000"
+"classname" "target_location"
+}
+{
+"message" "Ventilation Shaft"
+"count" "2"
+"angle" "-90.000000"
+"origin" "160.000000 1504.000000 368.000000"
+"classname" "target_location"
+}
+{
+"model" "*25"
+"target" "target_speaker1"
+"angle" "90"
+"wait" "5"
+"lip" "1"
+"classname" "func_button"
+}
+{
+"noise" "sound/methane/organ_kick_ass"
+"targetname" "target_speaker1"
+"angle" "-90.000000"
+"origin" "704.000000 544.000000 446.000000"
+"classname" "target_speaker"
+}
+{
+"message" "^2Terrace"
+"count" "2"
+"origin" "-704 0 1208"
+"classname" "target_location"
+}
+{
+"model" "*26"
+"angle" "90"
+"team" "door10"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"model" "*27"
+"angle" "270"
+"team" "door10"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"model" "*28"
+"speed" "50"
+"wait" "4"
+"target" "grangermachine"
+"angle" "0"
+"lip" "-4"
+"classname" "func_button"
+}
+{
+"model" "*29"
+"wait" "4"
+"soundPos2" "sound/methane/silence"
+"soundPos1" "sound/methane/silence"
+"sound2to1" "sound/methane/silence"
+"sound1to2" "sound/methane/silence"
+"targetname" "grangermachine"
+"lip" "-4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"angle" "180.000000"
+"noise" "sound/methane/ing_fanloop"
+"spawnflags" "1"
+"origin" "-536.000000 -992.000000 608.000000"
+"classname" "target_speaker"
+}
+{
+"target" "grangersound"
+"targetname" "grangermachine"
+"angle" "180.000000"
+"wait" "1"
+"origin" "-690.000000 -1206.000000 528.000000"
+"classname" "target_delay"
+}
+{
+"angle" "180.000000"
+"message" "^2Catacombs"
+"origin" "1184.000000 400.000000 448.000000"
+"classname" "target_location"
+}
+{
+"model" "*30"
+"angle" "0"
+"team" "door11"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"model" "*31"
+"angle" "180"
+"team" "door11"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"classname" "func_door"
+}
+{
+"angle" "89.999992"
+"message" "^2Spillway"
+"origin" "1440.000000 352.000000 960.000000"
+"classname" "target_location"
+}
+{
+"angle" "90.000008"
+"message" "^2Terrace"
+"count" "2"
+"origin" "0.000000 -400.000000 1208.000000"
+"classname" "target_location"
+}
+{
+"model" "*32"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door8b"
+"lip" "4"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*33"
+"soundPos2" "sound/methane/door_close1"
+"soundPos1" "sound/methane/door_close1"
+"sound2to1" "sound/methane/door_open1"
+"sound1to2" "sound/methane/door_open1"
+"team" "door8b"
+"angle" "270"
+"lip" "4"
+"classname" "func_door"
+}
+{
+"angle" "89.999992"
+"message" "^2Gallery"
+"origin" "1168.000000 -1280.000000 1152.000000"
+"classname" "target_location"
+}
+{
+"angle" "-90.000000"
+"message" "^2Gallery Entrance"
+"origin" "1168.000000 -288.000000 1152.000000"
+"classname" "target_location"
+}
+{
+"angle" "0.000016"
+"message" "^2Elevator Bottom"
+"origin" "688.000000 -1088.000000 576.000000"
+"classname" "target_location"
+}
+{
+"angle" "-90.000000"
+"message" "^2Spillway"
+"origin" "1440.000000 1472.000000 960.000000"
+"classname" "target_location"
+}
+{
+"noise" "sound/methane/ing_crickets01"
+"spawnflags" "1"
+"origin" "-992.000000 -128.000000 1216.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/methane/energyloop"
+"spawnflags" "1"
+"angle" "90.000000"
+"origin" "-2432.000000 -1312.000000 696.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/methane/energyloop"
+"spawnflags" "1"
+"angle" "0.000003"
+"origin" "-3264.000000 -1240.000000 696.000000"
+"classname" "target_speaker"
+}
+{
+"noise" "sound/methane/energyloop"
+"spawnflags" "1"
+"angle" "90.000000"
+"origin" "-2688.000000 -1312.000000 696.000000"
+"classname" "target_speaker"
+}
+{
+"message" "^2Elevator Hall"
+"origin" "1792.000000 -576.000000 1088.000000"
+"classname" "target_location"
+}
+{
+"angle" "-179.999985"
+"message" "^2Elevator Bottom"
+"origin" "1728.000000 -1088.000000 576.000000"
+"classname" "target_location"
+}
+{
+"message" "^3Methane Inhaler"
+"angle" "-90.000000"
+"origin" "0.000000 -1216.000000 1088.000000"
+"classname" "target_location"
+}
+{
+"angle" "90.000000"
+"message" "^3Methane Exhaler"
+"origin" "0.000000 640.000000 384.000000"
+"classname" "target_location"
+}
+{
+"message" "^2Chapel"
+"origin" "-2016.000000 -640.000000 472.000000"
+"classname" "target_location"
+}
+{
+"message" "Hall of Stairs"
+"count" "2"
+"origin" "-1664 -1248 792"
+"classname" "target_location"
+}
+{
+"model" "*34"
+"targetname" "elevator"
+"angle" "-2"
+"spawnflags" "1"
+"classname" "func_door"
+}
+{
+"model" "*35"
+"target" "elevator"
+"wait" "5"
+"angle" "90"
+"lip" "2"
+"classname" "func_button"
+}
+{
+"model" "*36"
+"target" "elevator"
+"wait" "5"
+"angle" "90"
+"lip" "2"
+"classname" "func_button"
+}
+{
+"origin" "464.000000 1104.000000 856.000000"
+"classname" "team_alien_spawn"
+}
+{
+"origin" "696.000000 1096.000000 920.000000"
+"classname" "team_alien_acid_tube"
+}
+{
+"origin" "272.000000 1256.000000 1056.000000"
+"classname" "team_alien_acid_tube"
+}
+{
+"origin" "-168.000000 944.000000 1056.000000"
+"classname" "team_alien_acid_tube"
+}
+{
+"origin" "0.000000 1256.000000 1056.000000"
+"classname" "team_alien_acid_tube"
+}
+{
+"angle" "-90.000000"
+"origin" "-2240.000000 192.000000 360.000000"
+"classname" "team_human_mgturret"
+}
+{
+"angle" "-90.000000"
+"origin" "-2416.000000 456.000000 360.000000"
+"classname" "team_human_mgturret"
+}
+{
+"angle" "-90.000000"
+"origin" "-2016.000000 200.000000 360.000000"
+"classname" "team_human_mgturret"
+}
+{
+"angle" "-90.000000"
+"origin" "-1968.000000 464.000000 360.000000"
+"classname" "team_human_mgturret"
+}
+{
+"origin" "-2192.000000 592.000000 344.000000"
+"classname" "team_human_armoury"
+}
+{
+"origin" "-2048.000000 592.000000 344.000000"
+"classname" "team_human_medistat"
+}
+{
+"angle" "180"
+"origin" "-1792 272 352"
+"classname" "team_human_spawn"
+}
+{
+"angle" "-90.000000"
+"origin" "-1840.000000 568.000000 352.000000"
+"classname" "team_human_spawn"
+}
